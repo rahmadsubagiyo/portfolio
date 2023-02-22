@@ -94,6 +94,10 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
+.call_me_at{
+	color: #6e6e6e;
+}
+
 /** 
  * ===================================================================
  * 03. typography & general theme styles - (_document-setup.scss)
@@ -286,6 +290,20 @@ ol, ul {
 ul li {
 	padding-left: .4rem;
 }
+
+.logo_tech{
+	height: auto;
+	margin: 10px 10px 0px 0px;
+}
+
+.label_skill{
+	color: black;
+	border-style: groove;
+	padding: 6px;
+	margin: 5px;
+	display: inline-block;
+}
+
 ul ul, ul ol, ol ol, ol ul {
 	margin: .6rem 0 .6rem 1.7rem;
 }
@@ -1095,7 +1113,6 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1117,9 +1134,8 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 92px;
+	width: 100px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
